@@ -1,6 +1,9 @@
 .section {
-    background: #f3e5f5;
+    background: lightblue;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
   }
   
   .section h2 {

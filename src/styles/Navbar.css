@@ -1,13 +1,13 @@
 .navbar {
-    background: #6a1b9a;
-    height: 60px;
+    background: red;
+    height: 100px;
   }
   
   .navbar a {
-    color: white;
+    color: black;
     font-size: 1.3rem;
     text-decoration: none;
-    margin: 5px;
-    line-height: 3;
+    margin: 50px;
+    line-height: 5;
   }
   /* grabbed from class work */
