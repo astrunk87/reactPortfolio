@@ -1,4 +1,4 @@
-// import './App.css';
+import './App.css';
 import PortfolioContainer from "./components/PortfolioContainer";
 
 const App = () => <PortfolioContainer />;
