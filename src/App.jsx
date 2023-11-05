@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Section from "./components/Section";
 import Nav from "./components/Navbar";
+import Form from "./components/Form";
 
 
 function App() {
@@ -9,6 +10,8 @@ function App() {
       <Nav />
       <Header />
       <Section />
+      <Form />
+
     </div>
   );
 }
