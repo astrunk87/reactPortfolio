@@ -1,5 +1,5 @@
 import { useState } from 'react';
-// import '../../styles/Form.css';
+
 
 // Here we import a helper function that will check if the email is valid
 import {validateEmail } from '../../utils/helpers';
@@ -45,14 +45,7 @@ function Contact() {
     setmessage('');
     setEmail('');
   };
-  const cardStyle = {
 
-    background: 'light blue',
-   
-    alignItems: 'center',
-   
-
-};
   return (
     <div className='container'>
       <section  className="form"></section>
@@ -65,6 +58,7 @@ function Contact() {
           onChange={handleInputChange}
           type="email"
           placeholder="email"
+          class='form-control-sm'
         />
         <input
           value={Name}
@@ -72,6 +66,7 @@ function Contact() {
           onChange={handleInputChange}
           type="text"
           placeholder="Name"
+          class='form-control-sm'
         />
         <input
           value={message}
@@ -79,6 +74,7 @@ function Contact() {
           onChange={handleInputChange}
           type="text"
           placeholder="message"
+          class='form-control-lg'          
         />
         <button type="submit">Submit</button>
       </form>

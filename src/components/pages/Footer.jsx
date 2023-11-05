@@ -1,6 +1,6 @@
 function Footer() {
     return (
-    <div className="sticky-top">
+    <div>
         <section className='footer'>
         <h2>Check out my github</h2>
             <a href="http://github.com/astrunk87">github</a>

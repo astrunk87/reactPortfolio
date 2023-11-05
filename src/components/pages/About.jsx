@@ -13,7 +13,8 @@
 function About() {
   return (
     <header className="header">
-      <h1 >Alex Strunk Portfolio</h1>
+      <h1 >Alex Strunk </h1>
+      <p>write something here</p>
     </header>
   );
 }

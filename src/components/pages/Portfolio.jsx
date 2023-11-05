@@ -12,7 +12,7 @@ function Portfolio() {
   return (
     <div className='container'>
       <section className="section">
-        <h2>put a nice header here</h2>
+        <h2>take a look at some of the projects I have created below</h2>
           <div className='container'>
                 <img src="src\assets\whoseHotterLogo.svg"  alt="WhoseHotter text with beach umbrella and sun"/>
                 <a href="https://gabe-velasquez.github.io/Whose_Hotter/">Whose Hotter</a>              

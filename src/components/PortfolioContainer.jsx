@@ -32,6 +32,7 @@ import Footer from './pages/footer';
         <div>
             <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
             <main className="mx-3">{renderPage()}</main>
+            <br></br>
             <Footer />
         </div>
         

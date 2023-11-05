@@ -1,7 +1,8 @@
 function NavTabs({currentPage, handlePageChange}) {
-    return (
-        <ul className='nav nav-tabs'>
-            <li className='nav-item'>
+  return (
+    <ul className='nav nav-pills nav-justified'>
+      <h1 className='nav justify-content-center'>Alex Strunk Portfolio</h1>
+      <li className='nav-item'>
                 <a 
                 href='#home'
                 onClick={() => handlePageChange('Home')}
