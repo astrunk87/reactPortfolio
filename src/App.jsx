@@ -1,19 +1,6 @@
-import Header from "./components/Header";
-import Section from "./components/Section";
-import Nav from "./components/Navbar";
-import Form from "./components/Form";
+import './App.css';
+import PortfolioContainer from "./components/PortfolioContainer";
 
-
-function App() {
-  return (
-    <div>
-      <Nav />
-      <Header />
-      <Section />
-      <Form />
-
-    </div>
-  );
-}
+const App = () => <PortfolioContainer />;
 
 export default App;

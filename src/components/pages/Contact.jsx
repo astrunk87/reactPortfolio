@@ -1,10 +1,10 @@
 import { useState } from 'react';
-import '../styles/Form.css';
+import '../../styles/Form.css';
 
 // Here we import a helper function that will check if the email is valid
-import {validateEmail } from '../utils/helpers';
+import {validateEmail } from '../../utils/helpers';
 
-function Form() {
+function Contact() {
   // Create state variables for the fields in the form
   // We are also setting their initial values to an empty string
   const [email, setEmail] = useState('');
@@ -92,4 +92,4 @@ function Form() {
   );
 }
 
-export default Form;
+export default Contact;

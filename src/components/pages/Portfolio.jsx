@@ -1,4 +1,4 @@
-import '../styles/Section.css';
+import '../../styles/Section.css';
 
 // By importing the Section.css file, it is added to the DOM whenever this component loads
 
@@ -18,13 +18,13 @@ const cardStyle = {
 
 // We use JSX curly braces to evaluate the style object on the JSX tag
 
-function Section() {
+function Portfolio() {
   return (
     <div className='container'>
       <section style={cardStyle} className="section">
         <h2>put a nice header here</h2>
           <div className='container'>
-                <img src="./assets/whoseHotterLogo.svg"  alt="WhoseHotter text with beach umbrella and sun"/>
+                <img src="../assets/logo.png"  alt="WhoseHotter text with beach umbrella and sun"/>
                 <a href="https://gabe-velasquez.github.io/Whose_Hotter/">Whose Hotter</a>              
             </div>    
             <br></br>
@@ -46,4 +46,4 @@ function Section() {
   );
 }
 
-export default Section;
+export default Portfolio;

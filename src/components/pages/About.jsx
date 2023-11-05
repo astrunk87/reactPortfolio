@@ -1,4 +1,4 @@
-import '../styles/Header.css';
+import '../../styles/Header.css';
 
 // By importing the Header.css file, it is added to the DOM whenever this component loads
 
@@ -18,7 +18,7 @@ const styles = {
 
 // We use JSX curly braces to evaluate the style object
 
-function Header() {
+function About() {
   return (
     <header style={styles.headerStyle} className="header">
       <h1 style={styles.headingStyle}>Alex Strunk Portfolio</h1>
@@ -26,4 +26,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default About;

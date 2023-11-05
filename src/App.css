@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  }
+  
+  body {
+    background-color: lightblue;
+  }
+
+.form {
+    background-color: aqua;
+    padding: 10px;
+      display: inline-flexbox;
+      flex-direction: row;
+      justify-content: center;
+    
+    
+  }
+  
+  .form input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+   .form button {
+    background-color: green;
+    
+   }
+   .section {
+    background: lightblue;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .section h2 {
+    text-align: center;
+  }
+  .header {
+    background: darkblue;
+    height: 200px;
+  }
+  
+  .header h1 {
+    margin: 0;
+    color: antiquewhite;
+    padding-top: 75px;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+  }
+  
