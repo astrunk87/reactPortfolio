@@ -1,4 +1,4 @@
-import '../../styles/Section.css';
+// import '../../styles/Section.css';
 
 // By importing the Section.css file, it is added to the DOM whenever this component loads
 
@@ -7,21 +7,21 @@ import '../../styles/Section.css';
 // On a style object, we camelCase all property names, and put all of the values in quotes
 // Non quoted values default to "pixels", e.g. height, margin, padding
 
-const cardStyle = {
+// const cardStyle = {
 
-    background: 'light blue',
+//     background: 'light blue',
    
-    alignItems: 'center',
+//     alignItems: 'center',
    
 
-};
+// };
 
 // We use JSX curly braces to evaluate the style object on the JSX tag
 
 function Portfolio() {
   return (
     <div className='container'>
-      <section style={cardStyle} className="section">
+      <section className="section">
         <h2>put a nice header here</h2>
           <div className='container'>
                 <img src="../assets/logo.png"  alt="WhoseHotter text with beach umbrella and sun"/>
