@@ -5,7 +5,7 @@ import About from'./pages/About';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
-import Footer from './pages/footer';
+import Footer from './pages/Footer';
 
 
 
