@@ -6,9 +6,7 @@ export default function Resume() {
         <img src='src/assets/0002.jpg'className='classImg'></img>
         <div 
         className= 'd-flex align-items-center mt-5 justify-content-center'>
-            <a className='btn btn-success' href='alex-strunk-resume.pdf'>Download </a>
-            <a href='src/assets/alex-strunk-resume.pdf'></a>
-            
+            <a className='btn btn-success' href='src/assets/alex-strunk-resume.pdf'>Download </a>            
         </div>
         </div>
     );
