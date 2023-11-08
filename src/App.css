@@ -84,6 +84,14 @@
   color: var(--dark);
   text-decoration: none;
 }
+
+.classImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+}
 @media screen and (max-width:992px){
 
 }

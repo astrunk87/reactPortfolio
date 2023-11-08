@@ -8,6 +8,7 @@ import Portfolio from './pages/Portfolio';
 import Footer from './pages/footer';
 
 
+
  export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('Home');
 
@@ -20,6 +21,7 @@ import Footer from './pages/footer';
         }
         if (currentPage === 'Resume') {
             return <Resume />;
+           
         }
         if (currentPage === 'Portfolio') {
             return <Portfolio />;
