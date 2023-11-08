@@ -60,7 +60,6 @@
   }
   .header {
     background: var(--main);
-    height: 400px;
     text-align: center;
   }
   
@@ -76,6 +75,7 @@
 .footer {
   text-align: center;
   background-color:var(--main);
+  color: var(--light);
   
   
 }
@@ -86,7 +86,7 @@
   
 }
 .footer a {
-  color: var(--dark);
+  color: var(--light);
   text-decoration: none;
 }
 
@@ -98,7 +98,16 @@
   
 }
 
-
+.bio{
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 5px;
+  padding: 20px;
+  
+}
 
 .project{
   border: 5px solid var(--main);
