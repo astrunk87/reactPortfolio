@@ -65,10 +65,9 @@
   
   .header h1 {
     margin: 0;
-    color: antiquewhite;
+    color: var(--light);
     padding-top: 75px;
     text-align: center;
-    color: white;
     font-size: 3rem;
     background: var(--main);
   }
