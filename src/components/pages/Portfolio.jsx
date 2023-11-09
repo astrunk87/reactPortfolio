@@ -7,7 +7,7 @@ function Portfolio() {
       <section className="section">
         <h2>Take a look at some of the projects I have created below</h2>
           <div className='project'>      
-          <img className='classImg' src="src\assets\whoseHotterLogo.svg"  alt="WhoseHotter text with beach umbrella and sun"/>  
+          <img className='classImg' src="../../assets/whoseHotterLogo.svg"  alt="WhoseHotter text with beach umbrella and sun"/>  
           <br></br>        
             <a target="_blank" href="https://gabe-velasquez.github.io/Whose_Hotter/"
             ><img className='classImg' src="src\assets\whoseHotterWebsite.png"  alt="WhoseHotter text with beach umbrella and sun"/></a> 
