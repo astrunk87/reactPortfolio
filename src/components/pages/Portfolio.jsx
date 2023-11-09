@@ -1,12 +1,5 @@
 
-// const cardStyle = {
-
-//     background: 'light blue',
-   
-//     alignItems: 'center',
-   
-
-// };
+import starbys from '../../assets/starbysCupCornerWebsite';
 
 function Portfolio() {
   return (
@@ -26,7 +19,7 @@ function Portfolio() {
             <div className='project'>
                 <img className='classImg' src="src\assets\logo.png" alt="coffee cup with text Starbys Cup Corner"/>
                 <br></br>
-                <a target='_blank' href="https://hidden-savannah-06081-4ae52891d71b.herokuapp.com/api/aboutRoute/about"><img className='classImg' src='../../assets/starbysCupCornerWebsite.png'></img></a>
+                <a target='_blank' href="https://hidden-savannah-06081-4ae52891d71b.herokuapp.com/api/aboutRoute/about"><img className='classImg' src={starbys}></img></a>
                 <br></br>
             <a className='repo' href='https://github.com/shinyuta/Project-2-UofMN'>  github repo for Starby's Cup Corner project  </a> 
             </div>   
