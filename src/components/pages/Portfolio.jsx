@@ -1,5 +1,5 @@
 
-import starbys from '../../assets/starbysCupCornerWebsite';
+import starbys from '../../assets/starbysCupCornerWebsite.png';
 
 function Portfolio() {
   return (
